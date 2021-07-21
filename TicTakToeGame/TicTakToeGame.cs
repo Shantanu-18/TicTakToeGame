@@ -33,5 +33,19 @@ namespace TicTakToeGame
                 Console.WriteLine("Error. You have to choose X or O only.");
             }
         }
+
+        public static void board()
+        {
+            Console.WriteLine("     |     |     ");
+            Console.WriteLine("     |     |     ");
+            Console.WriteLine("_____|_____|_____");
+            Console.WriteLine("     |     |     ");
+            Console.WriteLine("     |     |     ");
+            Console.WriteLine("_____|_____|_____");
+            Console.WriteLine("     |     |     ");
+            Console.WriteLine("     |     |     ");
+
+
+        }
     }
 }

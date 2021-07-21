@@ -11,6 +11,7 @@ namespace TicTakToeGame
 
             TicTakToeGame.TicTakToe();
             TicTakToeGame.chooseLetter();
+            TicTakToeGame.board();
 
         }
     }
