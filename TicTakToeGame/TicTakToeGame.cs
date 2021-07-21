@@ -10,5 +10,28 @@ namespace TicTakToeGame
         {
             char[] board = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
         }
+
+        public static void chooseLetter()
+        {
+            char letter;
+
+            Console.WriteLine("Choose a letter X or O: ");
+            letter = Console.ReadLine()[0];
+
+            if (letter == 'X')
+            {
+                Console.WriteLine("Player's letter is X.");
+                Console.WriteLine("Computer's letter is O.");
+            }
+            else if (letter == 'O')
+            {
+                Console.WriteLine("Player's letter is O.");
+                Console.WriteLine("Computer's letter is X.");
+            }
+            else
+            {
+                Console.WriteLine("Error. You have to choose X or O only.");
+            }
+        }
     }
 }
